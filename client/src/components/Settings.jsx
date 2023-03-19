@@ -8,11 +8,12 @@ const Settings = memo(({ botSettings, settingsChange, reset }) => {
 
                     <select id='options' onChange={settingsChange} name='persona' value={botSettings.persona}>
                         <option value='0'>Rhey - Programming/Network Expert</option>
-                        <option value='1'>Rick - Rick and Morty</option>
+                        <option value='1'>MAD - A creative lunatic, willing to help with any project</option>
                         <option value='2'>Eva - World Reknown Journalist</option>
-                        <option value='3'>Reef - World Class Surfer</option>
+                        <option value='3'>Writer - Book Writer</option>
                         <option value='4'>Ugg - The Caveman</option>
                         <option value='5'>AI Assistant - Default ChatGPT</option>
+                        <option value='6'>DM Assistant - Pathfinder Dungeon Master</option>
                     </select>
                     <label className='mg-left-20' htmlFor='tokens'>
                         Tokens:
@@ -24,7 +25,7 @@ const Settings = memo(({ botSettings, settingsChange, reset }) => {
                         id='tokens'
                         type='range'
                         min='50'
-                        max='2050'
+                        max='4046'
                         step='10'
                         name='tokens'
                         value={botSettings.tokens}

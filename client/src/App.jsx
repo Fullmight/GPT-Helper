@@ -13,7 +13,7 @@ function App() {
 
     const [botSettings, setBotSettings] = useState({
         persona: 0,
-        tokens: 500,
+        tokens: 2023,
         temperature: 0.5,
         presencePenalty: 0,
         frequencyPenalty: 0,
