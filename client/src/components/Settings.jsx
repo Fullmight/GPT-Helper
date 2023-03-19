@@ -13,7 +13,8 @@ const Settings = memo(({ botSettings, settingsChange, reset }) => {
                         <option value='3'>Writer - Book Writer</option>
                         <option value='4'>Joe - The Personal Assistant</option>
                         <option value='5'>AI Assistant - Default ChatGPT</option>
-                        <option value='6'>DM Assistant - Pathfinder Dungeon Master</option>
+                        <option value='6'>DM - Pathfinder Dungeon Master</option>
+                        <option value='7'>DM Writing Assistant - Pathfinder Dungeon Master</option>
                     </select>
                     <label className='mg-left-20' htmlFor='tokens'>
                         Tokens:
