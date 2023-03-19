@@ -11,7 +11,7 @@ const Settings = memo(({ botSettings, settingsChange, reset }) => {
                         <option value='1'>MAD - A creative lunatic, willing to help with any project</option>
                         <option value='2'>Eva - World Reknown Journalist</option>
                         <option value='3'>Writer - Book Writer</option>
-                        <option value='4'>Ugg - The Caveman</option>
+                        <option value='4'>Joe - The Personal Assistant</option>
                         <option value='5'>AI Assistant - Default ChatGPT</option>
                         <option value='6'>DM Assistant - Pathfinder Dungeon Master</option>
                     </select>
